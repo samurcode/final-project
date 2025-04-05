@@ -37,3 +37,10 @@ nav ul li a:hover {
     rgba(20, 3, 255, 0.644)
   );
 }
+
+.dancing-script-<cursive > {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
