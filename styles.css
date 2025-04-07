@@ -1,3 +1,10 @@
+.dancing-script-cursive {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 /* Example CSS for navigation bar and LinkedIn link */
 nav {
   background-color: darkslategrey;
@@ -38,9 +45,3 @@ nav ul li a:hover {
   );
 }
 
-.dancing-script-<cursive > {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
