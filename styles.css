@@ -1,4 +1,10 @@
-/* Example CSS for navigation bar and LinkedIn link */
+.dancing-script-cursive {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 nav {
   background-color: darkslategrey;
   padding: 10px;
@@ -19,7 +25,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #1da1f2; /* Highlight LinkedIn link */
+  color: #1da1f2;
   text-decoration: underline;
 }
 
@@ -39,9 +45,5 @@ nav ul li a:hover {
 }
 
 .body {
-  .dancing-script- <cursive >
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+  font-family: "Times New Roman", Times, serif;
+}
