@@ -29,6 +29,18 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.times-new-roman {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+img {
+  max-width: 25%;
+  max-height: 25%;
+}
+
 .box {
   width: 100px;
   height: 150px;
