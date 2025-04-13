@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: bold;
+  font-size: xx-large;
 }
 
 nav {
@@ -36,9 +37,33 @@ nav ul li a:hover {
   font-weight: 900;
 }
 
-img {
-  max-width: 25%;
-  max-height: 25%;
+@media (min-width: 800px) {
+  img {
+    width: 25vw;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 799px) {
+  img {
+    width: 25vw;
+    height: 25vh;
+  }
+  .caption {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.caption {
+  width: 25vw;
+}
+
+.empty {
+  width: 25vw;
 }
 
 .box {
